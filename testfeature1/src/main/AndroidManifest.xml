@@ -8,7 +8,8 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
-    <application>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_round">
 
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
