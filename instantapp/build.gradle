@@ -1,3 +1,6 @@
+//noinspection GradleCompatible
+//noinspection GradleCompatible
+//noinspection GradleCompatible
 apply plugin: 'com.android.instantapp'
 
 dependencies {

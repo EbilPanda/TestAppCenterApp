@@ -20,7 +20,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         AppCenter.start(
-            application, "6026cecf-bc2b-4a3b-a844-afa433bf5c4c",
+            application, """6026cecf-bc2b-4a3b-a844-afa433bf5c4c""",
             Analytics::class.java, Crashes::class.java
         )
         setContentView(R.layout.activity_maps)
